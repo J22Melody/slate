@@ -1,5 +1,5 @@
 {
-  "name": "j22-slate",
+  "name": "slate",
   "description": "A completely customizable framework for building rich text editors.",
   "version": "0.21.0",
   "license": "MIT",
@@ -99,7 +99,6 @@
     "benchs": "babel-node ./node_modules/.bin/_matcha --reporter ./benchmark/reporter ./benchmark/index.js > ./tmp/benchmark-comparison.json && babel-node ./benchmark/compare",
     "benchs:save": "babel-node ./node_modules/.bin/_matcha --reporter ./benchmark/reporter ./benchmark/index.js > ./tmp/benchmark-baseline.json",
     "prepublish": "npm run build",
-    "prepare": "npm install && npm run build",
     "postpublish": "npm run gh-pages",
     "release": "np",
     "release:next": "np --tag=next",
